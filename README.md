@@ -72,39 +72,22 @@ Deployment
 AI Studio
 
 📂 Project Structure
-StarDustAI/
-│
-├── App.tsx
-│   └── Main application entry point and layout controller
-│
-├── index.tsx
-│   └── React application bootstrap and root renderer
-│
-├── index.html
-│   └── Base HTML template for the frontend
-│
-├── metadata.json
-│   └── Project configuration and metadata settings
-│
-├── components/
-│   ├── InputSection.tsx
-│   │   └── Handles research topic input from user
-│   │
-│   ├── ParticleBackground.tsx
-│   │   └── Animated background visual effects
-│   │
-│   ├── ProgressDisplay.tsx
-│   │   └── Displays research progress and loading state
-│   │
-│   └── ReportView.tsx
-│       └── Displays structured AI research output
-│
-├── services/
-│   └── geminiService.ts
-│       └── Handles AI model communication and research workflow
-│
-└── types.ts
-    └── TypeScript interfaces and data models
+StarDustAI
+
+App.tsx – Main app layout and entry logic
+index.tsx – React app startup file
+index.html – Base HTML template
+metadata.json – Project configuration
+
+Components
+InputSection.tsx – Handles user research topic input
+ParticleBackground.tsx – Animated background effects
+ProgressDisplay.tsx – Shows loading and progress state
+ReportView.tsx – Displays AI research results
+
+Services
+geminiService.ts – Manages AI model communication and research workflow
+types.ts – TypeScript interfaces and data models
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
